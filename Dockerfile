@@ -15,5 +15,5 @@ VOLUME /opt/apacheds/instances
 
 EXPOSE 10389:10389 10636:10636 
 
-ENTRYPOINT ["/opt/apacheds/bin/apacheds.sh"]
+ENTRYPOINT ["/opt/apacheds/bin/apacheds.sh", "default"]
 CMD "run"
